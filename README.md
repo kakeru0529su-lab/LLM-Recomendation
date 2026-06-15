@@ -73,14 +73,14 @@ Programs/
 
 ~~~
 $ cd ~/Programs/docker
-$ docker build -t TALLRec .
+$ docker build -t tallrec-env .
 ~~~
 
 ### 1.3. コンテナの立ち上げ
 
 ~~~bash
 $ docker-compose up -d
-$ docker exec -it tallrec bash
+$ docker exec -it TALLRec bash
 ~~~
 
 ## 2. モデルの学習
