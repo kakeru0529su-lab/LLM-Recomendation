@@ -1,0 +1,22 @@
+# model / checkpoint files
+alpaca-lora-7B/
+lora-alpaca/
+models--*/
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# logs
+*.log
+
+# cache
+__pycache__/
+*.pyc
+
+# environment
+.env
+.venv/
+venv/
